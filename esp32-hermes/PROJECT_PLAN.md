@@ -347,6 +347,15 @@ than a hardware gadget, the ESP32 is the wrong tool — use a **Raspberry Pi Zer
 later pair with the ESP32 (Pi = brain, ESP32 = hardware limbs). **Out of scope here;
 noted so we don't conflate the two.**
 
+> ⚠️ **Don't confuse the two near-identical names:**
+> - **Raspberry Pi Zero 2 W** (~$15) = a *Linux computer* (quad-core A53, 512 MB RAM).
+>   Runs real Hermes/Claude Code directly. **This is Project B.**
+> - **Raspberry Pi Pico 2 W** (~$7) = a *microcontroller* (RP2350, 520 KB SRAM, no
+>   Linux) — same class as the ESP32, **not** a Linux box. It can run the *embedded*
+>   from-scratch agent, but it's a worse fit than an ESP32-S3 (no PSRAM out of the box,
+>   far fewer agent/TLS reference projects). **Not** the way to run real Hermes.
+
+
 ---
 
 ## 12. Sources / further reading
